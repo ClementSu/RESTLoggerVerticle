@@ -4,8 +4,6 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.MultiMap;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.http.HttpMethod;
-import io.vertx.core.http.HttpServer;
-import io.vertx.core.http.HttpServerOptions;
 import io.vertx.core.http.HttpServerResponse;
 
 public class RestVerticle extends AbstractVerticle {
